@@ -1,2 +1,8 @@
 "This is Nanda Kishor"
 "This is change from Pravith"
+#python recursion
+def rec(n):
+    if n==1:
+        return n
+    else:
+        n*(rec(n-1))
